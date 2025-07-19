@@ -15,13 +15,13 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           {/* Profile Image */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-elegant animate-float">
+          {/* <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-elegant animate-float">
             <img 
               src={professionalHeadshot} 
               alt="Professional headshot"
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6">
