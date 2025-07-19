@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import { useNavigate, useLocation } from "react-router-dom"
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,8 +17,19 @@ const Navigation = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToSection = (id: string, isRoute?: boolean) => {
+    if (isRoute) {
+      navigate(`/${id}`);
+    } else {
+      if (location.pathname !== '/') {
+        navigate('/');
+        setTimeout(() => {
+          document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      } else {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
     setIsMobileMenuOpen(false);
   };
 
@@ -24,6 +38,7 @@ const Navigation = () => {
     { label: 'About', id: 'about' },
     { label: 'Experience', id: 'experience' },
     { label: 'Projects', id: 'projects' },
+    { label: 'Blog', id: 'blog', isRoute: true },
     { label: 'Contact', id: 'contact' }
   ];
 
@@ -38,7 +53,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <button 
-              onClick={() => scrollToSection('hero')}
+              onClick={() => navigate('/')}
               className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:scale-105 transition-transform"
             >
               Alex.dev
@@ -49,7 +64,7 @@ const Navigation = () => {
               {navItems.map((item) => (
                 <button
                   key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                  onClick={() => scrollToSection(item.id, item.isRoute)}
                   className="text-foreground hover:text-primary transition-colors relative group"
                 >
                   {item.label}
@@ -87,7 +102,7 @@ const Navigation = () => {
               {navItems.map((item) => (
                 <button
                   key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                  onClick={() => scrollToSection(item.id, item.isRoute)}
                   className="block w-full text-left text-lg text-foreground hover:text-primary transition-colors py-2"
                 >
                   {item.label}
