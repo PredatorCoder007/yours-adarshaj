@@ -8,7 +8,8 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative overflow-hidden pt-24 md:pt-32">
+
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary-glow/5"></div>
       
@@ -25,11 +26,11 @@ const HeroSection = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6">
-            Hello, I'm Alex
+            Hello, I'm Adarsh
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-            Full-Stack Developer & Digital Innovator
+            Product Manager & Digital Innovator
           </p>
           
           <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">

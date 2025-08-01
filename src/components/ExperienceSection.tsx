@@ -5,10 +5,10 @@ import { Calendar, MapPin } from "lucide-react"
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "TechFlow Solutions",
-      period: "2022 - Present",
-      location: "San Francisco, CA",
+      title: "Overall Coordinator & COO",
+      company: "Team Exofly",
+      period: "2022 - 2025",
+      location: "Mumbai",
       description: "Leading the development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.",
       achievements: [
         "Reduced application load time by 60% through performance optimization",
@@ -18,10 +18,10 @@ const ExperienceSection = () => {
       technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
     },
     {
-      title: "Full-Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2020 - 2022",
-      location: "Austin, TX",
+      title: "Founding Member",
+      company: "zENLI",
+      period: "2024",
+      location: "Mumbai",
       description: "Developed and maintained multiple client-facing web applications. Collaborated with design teams to implement pixel-perfect UI components.",
       achievements: [
         "Built responsive web applications for 15+ clients",
@@ -31,15 +31,15 @@ const ExperienceSection = () => {
       technologies: ["Vue.js", "Python", "Django", "MongoDB", "Redis"]
     },
     {
-      title: "Frontend Developer",
-      company: "StartupX",
-      period: "2019 - 2020",
-      location: "Remote",
-      description: "Focused on creating exceptional user experiences for early-stage startup products. Worked directly with founders to translate vision into reality.",
+      title: "Project Fellow & Teaching Assistant (not your everyday student!)",
+      company: "Dept of Physics, IIT Bombay",
+      period: "2023 - 2024",
+      location: "Mumbai",
+      description: "Department of Engineering Physics which combines deep rigiorous mathematics and physics for most fundamental and basic sciences perspective with Electronics,",
       achievements: [
-        "Developed MVP that secured $2M seed funding",
-        "Created design system used across 5+ products",
-        "Improved user engagement by 150% through UX improvements"
+        "Developed a precise nano-ampere current source circuit using precision Op-Amp.",
+        "Proficiently utilized USB-SPI click featuring MCP2210-IC.",
+        "Developed a GUI applicaiton to seamlessly interfacewith a DAC using MCP2210-IC."
       ],
       technologies: ["React", "TypeScript", "Figma", "Styled Components"]
     }

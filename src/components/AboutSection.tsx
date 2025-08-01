@@ -39,9 +39,15 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer with over 5 years of experience crafting digital solutions 
-            that make a difference. My journey started with curiosity about how things work, 
-            and evolved into a career dedicated to building exceptional user experiences.
+            Hello! I'm Adarsh, a recent graduate from Indian Institute of Technology Bombay
+            majored in Engineering Physics(2025). I'm a generalist who wants
+            to become a specialist. During my stay at IITB, I had led a
+            Technical Team Exofly and have also ventured into entreprenurship by
+            building my own startup "zENLI". At the same time, I have been
+            involved in Research activities at Koita Center for Digital Health
+            and Dept of Physics. I love writing down my experiences and
+            fictional stories. You can sometime see me riding my bicycle on
+            streets of Mumbai!
           </p>
         </div>
 
@@ -49,26 +55,33 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Starting as a self-taught programmer, I've evolved into a versatile full-stack developer 
-              who thrives on solving complex problems. I believe in writing clean, maintainable code 
-              and creating solutions that not only work but scale beautifully.
+              Starting as a self-taught programmer, I've evolved into a
+              versatile full-stack developer who thrives on solving complex
+              problems. I believe in writing clean, maintainable code and
+              creating solutions that not only work but scale beautifully.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-              projects, or sharing knowledge through technical writing and mentoring.
+              When I'm not coding, you'll find me exploring new technologies,
+              contributing to open-source projects, or sharing knowledge through
+              technical writing and mentoring.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((highlight, index) => (
-              <Card key={index} className="p-6 shadow-soft hover:shadow-elegant transition-all duration-300 hover:scale-105">
+              <Card
+                key={index}
+                className="p-6 shadow-soft hover:shadow-elegant transition-all duration-300 hover:scale-105"
+              >
                 <div className="flex items-center mb-4">
                   <div className="p-3 rounded-lg bg-gradient-primary mr-4">
                     <highlight.icon className="w-6 h-6 text-white" />
                   </div>
                   <h4 className="font-semibold">{highlight.title}</h4>
                 </div>
-                <p className="text-sm text-muted-foreground">{highlight.description}</p>
+                <p className="text-sm text-muted-foreground">
+                  {highlight.description}
+                </p>
               </Card>
             ))}
           </div>
@@ -78,9 +91,9 @@ const AboutSection = () => {
           <h3 className="text-2xl font-semibold mb-8">Technologies & Skills</h3>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {skills.map((skill, index) => (
-              <Badge 
-                key={index} 
-                variant="secondary" 
+              <Badge
+                key={index}
+                variant="secondary"
                 className="px-4 py-2 text-sm hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
               >
                 {skill}
