@@ -36,19 +36,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "alex@example.com",
-      action: "mailto:alex@example.com"
+      details: "adarshvjadhaoiitb25@gmail.com",
+      action: "mailto:adarshvjadhaoiitb25@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      details: "+1 (555) 123-4567",
-      action: "tel:+15551234567"
+      details: "+91 8306581316",
+      action: "tel:+918306581316"
     },
     {
       icon: MapPin,
       title: "Location",
-      details: "San Francisco, CA",
+      details: "Mumbai, India",
       action: null
     }
   ];

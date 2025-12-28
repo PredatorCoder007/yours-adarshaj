@@ -26,16 +26,15 @@ const HeroSection = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6">
-            Hello, I'm Adarsh
+            Hey! This is Adarsh
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-            Product Manager & Digital Innovator
+            Product Innovator & Experimentalist
           </p>
           
           <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Passionate about creating exceptional digital experiences that bridge the gap between 
-            design and technology. I transform ideas into robust, scalable solutions.
+            I explore ideas through experimentation to create systems that prioritize real-world impact.
           </p>
 
           {/* CTA Buttons */}
@@ -61,7 +60,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/PredatorCoder007" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-card hover:scale-110 transition-all duration-300"
@@ -69,7 +68,7 @@ const HeroSection = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/adarsh-jadhao-8b07861ab" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-card hover:scale-110 transition-all duration-300"
@@ -77,7 +76,7 @@ const HeroSection = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:adarshvjadhaoiitb25@gmail.com"
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-card hover:scale-110 transition-all duration-300"
             >
               <Mail className="w-6 h-6" />

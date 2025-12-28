@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/PredatorCoder007" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gradient-primary/10 hover:bg-gradient-primary hover:text-white transition-all duration-300 hover:scale-110"
@@ -35,7 +35,7 @@ const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/adarsh-jadhao-8b07861ab" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gradient-primary/10 hover:bg-gradient-primary hover:text-white transition-all duration-300 hover:scale-110"
@@ -43,7 +43,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:alex@example.com"
+              href="mailto:adarshvjadhaoiitb25@gmail.com"
               className="p-3 rounded-full bg-gradient-primary/10 hover:bg-gradient-primary hover:text-white transition-all duration-300 hover:scale-110"
             >
               <Mail className="w-5 h-5" />

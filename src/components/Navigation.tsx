@@ -37,7 +37,7 @@ const Navigation = () => {
     { label: 'Home', id: 'hero' },
     { label: 'About', id: 'about' },
     { label: 'Experience', id: 'experience' },
-    { label: 'Projects', id: 'projects' },
+    // { label: 'Projects', id: 'projects' },
     { label: 'Blog', id: 'blog', isRoute: true },
     { label: 'Contact', id: 'contact' }
   ];
@@ -56,7 +56,7 @@ const Navigation = () => {
               onClick={() => navigate('/')}
               className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:scale-105 transition-transform"
             >
-              ajadarsh.dev
+              ajadarsh.me
             </button>
 
             {/* Desktop Navigation */}
