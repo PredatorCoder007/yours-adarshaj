@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label"
 import { Mail, MapPin, Phone, Send } from "lucide-react"
 import { useState } from "react"
 import { useToast } from "@/hooks/use-toast"
+import collab from "@/assets/collab.jpeg"
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -126,7 +127,7 @@ const ContactSection = () => {
 
           <Card className="relative overflow-hidden shadow-soft group">
             <img
-              src="/src/assets/collab.jpeg"
+              src={collab}
               alt="Collaboration Illustration"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
