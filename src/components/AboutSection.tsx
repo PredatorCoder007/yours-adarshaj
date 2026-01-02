@@ -5,7 +5,7 @@ import Image1 from "@/assets/image1.jpeg"
 const AboutSection = () => {
   const skills = [
     "Ownership", "Team Building", "Leadership", "Problem Solving", "Figma", "SQL",
-    "Excel", "Dashboards", "Python", "UI/UX", "Product Management", "Electronics"
+    "Excel", "Dashboards", "Python", "UI/UX", "Product Management", ""
   ];
 
   return (

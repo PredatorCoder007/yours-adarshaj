@@ -1,7 +1,8 @@
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, MapPin } from "lucide-react"
-import Image1 from "@/assets/image1.jpeg"
+
+
 
 const ExperienceSection = () => {
   const experiences = [
@@ -10,7 +11,7 @@ const ExperienceSection = () => {
       company: "LoanNetwork",
       period: "2025",
       location: "Mumbai",
-      image: "/src/assets/loannetwork.jpeg",
+      image: "/src/assets/exoflyt.jpg",
       description:
         "Worked closely with the CTO and CBO to drive product launches and operational initiatives, aligning sales, partnerships, and tech teams to scale QR-based home loan solutions.",
       achievements: [
