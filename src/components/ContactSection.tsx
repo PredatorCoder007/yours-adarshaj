@@ -54,17 +54,21 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-background relative overflow-hidden">
+    <section
+      id="contact"
+      className="py-20 bg-background relative overflow-hidden"
+    >
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary-glow/5"></div>
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Have a project in mind or want to discuss opportunities? I'd love to hear from you.
+            Have a project in mind or want to discuss opportunities? I'd love to
+            hear from you.
           </p>
         </div>
 
@@ -74,15 +78,19 @@ const ContactSection = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                I'm always interested in hearing about new projects and opportunities. 
-                Whether you're a company looking to hire, or you're someone looking to collaborate, 
-                I'd love to hear from you.
+                I'm always interested in hearing about new projects and
+                opportunities. Whether you're a company looking to hire, or
+                you're someone looking to collaborate, I'd love to hear from
+                you.
               </p>
             </div>
 
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
-                <Card key={index} className="p-6 shadow-soft hover:shadow-elegant transition-all duration-300">
+                <Card
+                  key={index}
+                  className="p-6 shadow-soft hover:shadow-elegant transition-all duration-300"
+                >
                   <div className="flex items-center">
                     <div className="p-3 rounded-lg bg-gradient-primary mr-4">
                       <info.icon className="w-6 h-6 text-white" />
@@ -90,14 +98,16 @@ const ContactSection = () => {
                     <div>
                       <h4 className="font-semibold mb-1">{info.title}</h4>
                       {info.action ? (
-                        <a 
+                        <a
                           href={info.action}
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
                           {info.details}
                         </a>
                       ) : (
-                        <span className="text-muted-foreground">{info.details}</span>
+                        <span className="text-muted-foreground">
+                          {info.details}
+                        </span>
                       )}
                     </div>
                   </div>
@@ -108,13 +118,34 @@ const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-semibold mb-4">Response Time</h4>
               <p className="text-muted-foreground">
-                I typically respond to messages within 24 hours during business days. 
-                For urgent matters, please feel free to call directly.
+                I typically respond to messages within 24 hours during business
+                days. For urgent matters, please feel free to call directly.
               </p>
             </div>
           </div>
 
-          {/* Contact Form */}
+          <Card className="relative overflow-hidden shadow-soft group">
+            <img
+              src="/src/assets/collab.jpeg"
+              alt="Collaboration Illustration"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+
+            {/* Optional overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+
+            <div className="absolute bottom-6 left-6 right-6 text-white">
+              <h3 className="text-2xl font-bold mb-2">
+                Let’s Build Something Meaningful
+              </h3>
+              <p className="text-sm text-white/90 leading-relaxed">
+                Ideas grow stronger when minds collaborate. Let’s turn vision
+                into reality.
+              </p>
+            </div>
+          </Card>
+
+          {/* Contact Form
           <Card className="p-8 shadow-soft">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -173,7 +204,7 @@ const ContactSection = () => {
                 Send Message
               </Button>
             </form>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

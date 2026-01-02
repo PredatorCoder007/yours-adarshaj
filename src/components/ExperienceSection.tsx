@@ -12,13 +12,14 @@ const ExperienceSection = () => {
       location: "Mumbai",
       image: "/src/assets/loannetwork.jpeg",
       description:
-        "Developed and maintained multiple client-facing web applications. Collaborated with design teams to implement pixel-perfect UI components.",
+        "Worked closely with the CTO and CBO to drive product launches and operational initiatives, aligning sales, partnerships, and tech teams to scale QR-based home loan solutions.",
       achievements: [
-        "Built responsive web applications for 15+ clients",
-        "Improved code coverage from 45% to 85% through comprehensive testing",
-        "Reduced bug reports by 70% through quality assurance processes"
+        "Drove end-to-end rollout of QR-based instant home loan initiatives across 5 cities, onboarding 40+ projects and enabling 30+ live builder partnerships through close coordination with sales and valuation teams",
+        "Led strategic improvements to the QR home loan funnel, translating on-ground insights into redesigned user flows with design and engineering teams",
+        "Identified INR 160 Cr+ business potential by analyzing QR lead data across 500+ leads and 2,000+ impressions, supporting leadership decision-making",
+        "Worked directly with sales, credit, and lending partners to shape affordable housing and informal segment offerings, while driving partner adoption through trainings and streamlined CRM/NFC workflows"
       ],
-      technologies: ["Vue.js", "Python", "Django", "MongoDB", "Redis"]
+      technologies: ["Strategy", "Product", "Analytics", "Growth", "Operations"]
     },
     {
       title: "Overall Coordinator & COO",
@@ -27,28 +28,31 @@ const ExperienceSection = () => {
       location: "Mumbai",
       image: "/src/assets/exoflyt.jpg",
       description:
-        "Leading the development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.",
+        "Led overall operations, finance, and strategy for a student-run aerospace team, driving large-scale projects, partnerships, and competitive execution.",
       achievements: [
-        "Reduced application load time by 60% through performance optimization",
-        "Led migration to cloud infrastructure, reducing costs by 40%",
-        "Implemented CI/CD pipelines improving deployment frequency by 300%"
+        "Led a 40+ member cross-functional team, overseeing operations, finance, and project execution for national-level UAV initiatives including SUAS",
+        "Managed INR 1.5 Mn project budget and inventory of 500+ items, driving cost efficiency through structured procurement and vendor negotiations",
+        "Closed a INR 0.3 Mn CSR MoU with Forvia Hella India to develop a Medical Delivery Drone",
+        // "Secured INR 1.3 Mn in sponsorship funding, scaling partner outreach from 8 to 40+ sponsors and improving team visibility by 20%",
+        "Designed and executed a 3-stage recruitment and training process, onboarding high-quality members from 100+ applicants"
       ],
-      technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
+      technologies: ["Leadership", "Negotiation", "Partnership", "Finance", "Execution"]
     },
     {
-      title: "Founding Member",
+      title: "Co-Founder",
       company: "zENLI",
       period: "2024",
       location: "Mumbai",
       image: "/src/assets/ideas.jpeg",
       description:
-        "Developed and maintained multiple client-facing web applications. Collaborated with design teams to implement pixel-perfect UI components.",
+        "Co-founded an EdTech learning platform, leading early-stage strategy, user research, and product development from ideation to MVP.",
       achievements: [
-        "Built responsive web applications for 15+ clients",
-        "Improved code coverage from 45% to 85% through comprehensive testing",
-        "Reduced bug reports by 70% through quality assurance processes"
+        "Secured a INR 50K pre-incubation grant by pitching zENLI as part of the IDEAS cohort (L1C13)",
+        "Conducted market research, competitor analysis, and surveys with 80+ stakeholders to validate problem statements and refine product direction",
+        "Designed wireframes and end-to-end user flows and built the frontend using Figma, Next.js, TypeScript, and TailwindCSS",
+        "Drove early product decisions by translating user insights into a functional MVP"
       ],
-      technologies: ["Vue.js", "Python", "Django", "MongoDB", "Redis"]
+      technologies: ["Entrepreneurship", "Frontend", "UX", "MVP", "Research"]
     },
     {
       title: "Project Fellow & Teaching Assistant (not your everyday student!)",

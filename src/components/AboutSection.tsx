@@ -4,8 +4,8 @@ import Image1 from "@/assets/image1.jpeg"
 
 const AboutSection = () => {
   const skills = [
-    "React", "TypeScript", "Node.js", "Python", "PostgreSQL", "MongoDB",
-    "AWS", "Docker", "GraphQL", "REST APIs", "Tailwind CSS", "Figma"
+    "Ownership", "Team Building", "Leadership", "Problem Solving", "Figma", "SQL",
+    "Excel", "Dashboards", "Python", "UI/UX", "Product Management", "Electronics"
   ];
 
   return (
@@ -74,7 +74,7 @@ const AboutSection = () => {
               technology that turns curiosity into real-world impact. I aim to
               work across engineering, product, and strategy to design systems
               that scale responsibly, are executed well, and genuinely improve
-              people’s lives—while constantly learning, building, and exploring
+              people’s lives, while constantly learning, building, and exploring
               the unknown.
             </p>
             <p className="text-muted-foreground leading-relaxed">

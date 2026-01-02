@@ -76,7 +76,7 @@ const Navigation = () => {
                 size="sm"
                 onClick={() => scrollToSection('contact')}
               >
-                Hire Me
+                Let's Connect!
               </Button>
             </div>
 
