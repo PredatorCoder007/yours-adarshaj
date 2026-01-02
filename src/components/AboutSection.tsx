@@ -11,39 +11,47 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-gradient-secondary">
       <div className="container mx-auto px-6">
-        
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Hey, there! Adarsh is a recent graduate from Indian Institute of Technology Bombay
-            who majored in Engineering Physics (2025). He is a generalist who wants
-            to become a specialist. During his stay at IITB, he led the
-            Technical Team Exofly and ventured into entrepreneurship by
-            building his first startup “zENLI”. He has also been involved in research
-            at the Koita Center for Digital Health and the Department of Physics.
-            I love writing and cycling through the streets of Mumbai.
+            Hi, I’m Adarsh,a product-focused technologist and
+            founder-in-progress (stay tunned!), with a B.Tech in Engineering
+            Physics from IIT Bombay (Class of 2025). Driven by first-principles
+            thinking, I work across product, growth, data and strategy to turn
+            complex ideas into scalable, real-world products and strategies,
+            while believing execution matters most. At IITB, I led Team Exofly,
+            built my first startup ZENLI, and explored research in digital
+            health and physics. Outside work, I love writing (author of The Last
+            One Girl), enjoy music, cycling and explore art.
           </p>
         </div>
 
         {/* Journey + Image + Mission */}
         <div className="grid lg:grid-cols-3 gap-6 items-center mb-16">
-          
           {/* Left: My Journey */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Starting as a self-taught programmer, I've evolved into a
-              versatile full-stack developer who thrives on solving complex
-              problems. I believe in writing clean, maintainable code and
-              building systems that scale gracefully.
+              I’ve been curious about math, science, and building things since
+              childhood, which naturally led me to physics and first-principles
+              thinking. Inspired by builders like Elon Musk, Jeff Bezos, and
+              Sergey Brin, I chose physics not just to understand the world, but
+              to create within it.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies,
-              contributing to open-source projects, or sharing knowledge
-              through writing and mentoring.
+              I studied Engineering Physics at IIT Bombay (Class of 2025), where
+              I learned how to learn anything fast and build from the ground up
+              exploring STM and PPG, leading the technical team at Exofly, and
+              building my first startup, ZENLI.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Over time, my love for building expanded into product, strategy,
+              growth, and execution. I currently work in a fintech founder’s
+              office role and aim to keep learning, building, and creating
+              technology that makes a real impact.
             </p>
           </div>
 
@@ -62,18 +70,19 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">My Mission</h3>
             <p className="text-muted-foreground leading-relaxed">
-              My mission is to build thoughtful, human-centered technology
-              that bridges the gap between engineering and real-world impact.
-              I aim to work at the intersection of software, data, and design
-              to create systems that empower people and scale meaningfully.
+              My mission is to build thoughtful, first-principles-driven
+              technology that turns curiosity into real-world impact. I aim to
+              work across engineering, product, and strategy to design systems
+              that scale responsibly, are executed well, and genuinely improve
+              people’s lives—while constantly learning, building, and exploring
+              the unknown.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Whether through startups, research, or open collaboration,
-              I strive to learn deeply, execute rigorously, and contribute
-              work that lasts.
+              Whether through startups, research, or open collaboration, I
+              strive to learn deeply, execute rigorously, and contribute work
+              that lasts.
             </p>
           </div>
-
         </div>
 
         {/* Skills */}
@@ -91,7 +100,6 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
-
       </div>
     </section>
   );
