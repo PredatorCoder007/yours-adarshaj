@@ -17,7 +17,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:scale-105 transition-transform inline-block"
             >
-              Alex.dev
+              ajadarsh.me
             </button>
             <p className="text-muted-foreground mt-2">
               Building the future, one line of code at a time.

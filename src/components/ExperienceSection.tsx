@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, MapPin } from "lucide-react"
 
 // ✅ Import images the same way as AboutSection
+import FounderOffice from "@/assets/loannetwork.jpeg"
 import Exoflyt from "@/assets/exoflyt.jpg"
 import Ideas from "@/assets/ideas.jpeg"
 import Labim from "@/assets/labim.jpeg"
@@ -16,7 +17,7 @@ const ExperienceSection = () => {
       company: "LoanNetwork",
       period: "2025",
       location: "Mumbai",
-      image: Exoflyt,
+      image: FounderOffice,
       description:
         "Worked closely with the CTO and CBO to drive product launches and operational initiatives, aligning sales, partnerships, and tech teams to scale QR-based home loan solutions.",
       achievements: [
